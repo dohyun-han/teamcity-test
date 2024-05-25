@@ -2,7 +2,7 @@ import os
 import paramiko
 from io import StringIO
 
-server_ip = '127.0.0.1'
+server_ip = '172.22.158.9'
 username = 'han'
 ssh_key_str = os.getenv('SSH_key')
 ssh_key_fileobj = StringIO(ssh_key_str)
